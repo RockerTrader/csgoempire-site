@@ -23,18 +23,32 @@
       text-align: center;
       margin-bottom: 10px;
     }
-    .rates, .contact, .note {
+    .rates, .contact, .note, .faq, .testimonials, .payment {
       margin-top: 25px;
     }
-    .contact a {
+    .contact a, .order-button {
       display: block;
-      margin: 5px 0;
-      color: #0066cc;
+      margin: 10px 0;
+      color: #fff;
+      background-color: #28a745;
+      padding: 10px;
+      text-align: center;
       text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .contact a:hover, .order-button:hover {
+      background-color: #218838;
     }
     .highlight {
       font-weight: bold;
       color: #009900;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .payment-icons {
+      font-size: 1.2em;
     }
   </style>
 </head>
@@ -50,8 +64,31 @@
 
     <div class="contact">
       <h2>📲 Contact to Order</h2>
-      <a href="https://wa.me/919930734702" target="_blank">WhatsApp</a>
-      <a href="https://www.facebook.com/Flame.cs" target="_blank">Facebook</a>
+      <a class="order-button" href="https://wa.me/919930734702" target="_blank">💬 Order Now on WhatsApp</a>
+      <a href="https://www.facebook.com/Flame.cs" target="_blank">📘 Facebook</a>
+    </div>
+
+    <div class="payment">
+      <h2>💳 Payment Methods</h2>
+      <p class="payment-icons">✅ UPI | ✅ Paytm | ✅ Crypto (USDT, BTC)</p>
+    </div>
+
+    <div class="faq">
+      <h2>❓ FAQ</h2>
+      <ul>
+        <li><strong>Q:</strong> How fast is delivery?<br><strong>A:</strong> Within 5–10 minutes.</li>
+        <li><strong>Q:</strong> What payment methods do you accept?<br><strong>A:</strong> UPI, Paytm, Crypto.</li>
+        <li><strong>Q:</strong> Do I go first?<br><strong>A:</strong> Yes. Trusted seller since 6+ years.</li>
+      </ul>
+    </div>
+
+    <div class="testimonials">
+      <h2>🌟 Customer Reviews</h2>
+      <ul>
+        <li>"Bought 3 times — fast and smooth!" — Aman</li>
+        <li>"Best price for coins and always delivers on time." — Riya</li>
+        <li>"Trustworthy seller, highly recommend." — Rahul</li>
+      </ul>
     </div>
 
     <div class="note">
